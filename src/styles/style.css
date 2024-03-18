@@ -1,0 +1,54 @@
+body {
+    text-align: center;
+    padding: 2rem 4rem;
+    line-height: 1.5rem;
+}
+
+form {
+    align-self: stretch;
+    width: 100%;
+    margin: 2rem auto;
+}
+
+#app {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.repos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    row-gap: 2rem;
+    column-gap: 2rem;
+}
+
+.repo {
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    background-color: rgb(223, 223, 223);
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 1rem;
+    padding: 2rem;
+    row-gap: 1rem;
+    text-align: left;
+}
+
+a {
+    color: orangered;
+    font-size: 1.1rem;
+    justify-self: flex-end;
+}
+
